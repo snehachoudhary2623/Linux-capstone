@@ -1,0 +1,6 @@
+INFO: System started successfully
+ERROR: Disk space is low
+WARNING: Memory usage is high
+ERROR: Connection failed
+INFO: Backup completed
+CRITICAL: Service stopped

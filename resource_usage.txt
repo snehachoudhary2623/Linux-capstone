@@ -1,0 +1,42 @@
+======================================
+   SYSTEM RESOURCE USAGE REPORT
+======================================
+Date: Tue Nov 24 14:29:14 UTC 2026
+
+---------- CPU INFORMATION ----------
+top - 14:29:15 up  2:21,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  26 total,   1 running,  25 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  1.1 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3751.6 total,   3133.5 free,    446.9 used,    246.1 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3304.7 avail Mem 
+
+---------- MEMORY INFORMATION -------
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       446Mi       3.1Gi       3.5Mi       246Mi       3.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+---------- DISK INFORMATION ---------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         145G  126G   20G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            1.9G  100K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.8M  1.9G   1% /init
+none            1.9G  500K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   80K  1.9G   1% /mnt/wslg/doc
+C:\             145G  126G   20G  87% /mnt/c
+D:\             331G  389M  330G   1% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.9G     0  1.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           376M   12K  376M   1% /run/user/1000
+
+======================================
+       END OF REPORT
+======================================
